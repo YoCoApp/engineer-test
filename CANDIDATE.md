@@ -5,6 +5,7 @@
 You have **2 hours**.
 
 Suggested split:
+
 - ~15 min — read this brief and explore the scaffold
 - ~90 min — implement the feature
 - ~15 min — complete `REFLECTION.md`
@@ -55,37 +56,41 @@ Follow the patterns you see there in your own implementation.
 
 Each recipe has:
 
-| Field | Type | Notes |
-|-------|------|-------|
-| `title` | `string` | |
-| `description` | `string` | |
-| `servings` | `number` (integer) | |
-| `prepMin` | `number` (minutes) | |
-| `cookMin` | `number` (minutes) | |
-| `difficulty` | `"easy" \| "medium" \| "hard"` | |
-| `tags` | `string[]` | |
-| `ingredients` | `{ name, qty, unit }[]` | `unit` is a field for the measurement unit (e.g., g, ml, cups) |
-| `steps` | `string[]` | ordered |
+| Field         | Type                           | Notes                                                          |
+| ------------- | ------------------------------ | -------------------------------------------------------------- |
+| `title`       | `string`                       |                                                                |
+| `description` | `string`                       |                                                                |
+| `servings`    | `number` (integer)             |                                                                |
+| `prepMin`     | `number` (minutes)             |                                                                |
+| `cookMin`     | `number` (minutes)             |                                                                |
+| `difficulty`  | `"easy" \| "medium" \| "hard"` |                                                                |
+| `tags`        | `string[]`                     |                                                                |
+| `ingredients` | `{ name, qty, unit }[]`        | `unit` is a field for the measurement unit (e.g., g, ml, cups) |
+| `steps`       | `string[]`                     | ordered                                                        |
 
 ---
 
 ## What to Build
 
 ### 1. Recipe List
+
 - Display recipes in a paginated or scrollable list
 - Include title, difficulty, tags, and total time (prep + cook)
 - Search recipes by keyword. Search should work across recipe content.
 - Filter recipes by tags (multi-select) and by difficulty
 
 ### 2. Recipe Detail
+
 - Show all recipe fields when a recipe is selected or navigated to
 
 ### 3. Create / Edit Recipe
+
 - Form to create a new recipe (all schema fields)
 - Form to edit an existing recipe
 - Both forms must enforce the business rules below
 
 ### 4. Delete Recipe
+
 - Allow the user to delete a recipe
 - Include a confirmation step before deletion
 
@@ -106,6 +111,7 @@ These rules MUST be enforced on **both** client (zod validation) and server (val
 ## Testing
 
 Write vitest tests for:
+
 - Your zod validation logic (business rules above)
 - At least one component or integration test
 
@@ -128,6 +134,7 @@ You may use any AI tool or agent. You **must** disclose AI usage in `REFLECTION.
 ## Constraints
 
 Please do **not** modify the following without documenting your reason in `REFLECTION.md`:
+
 - `tsconfig.json` compiler flags
 - `eslint` configuration
 - `next.config.ts` settings
