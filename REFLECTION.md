@@ -7,6 +7,7 @@
 ## 1. Architectural Decisions
 
 Describe **3 architectural decisions** you made. For each, explain:
+
 - What the decision was
 - What alternatives you considered
 - The trade-off you accepted
@@ -14,37 +15,37 @@ Describe **3 architectural decisions** you made. For each, explain:
 
 **Decision 1: [Name your decision]**
 
-*Context:*
+_Context:_
 
-*Options considered:*
+_Options considered:_
 
-*Decision and trade-offs:*
+_Decision and trade-offs:_
 
-*With more time I'd:*
+_With more time I'd:_
 
 ---
 
 **Decision 2: [Name your decision]**
 
-*Context:*
+_Context:_
 
-*Options considered:*
+_Options considered:_
 
-*Decision and trade-offs:*
+_Decision and trade-offs:_
 
-*With more time I'd:*
+_With more time I'd:_
 
 ---
 
 **Decision 3: [Name your decision]**
 
-*Context:*
+_Context:_
 
-*Options considered:*
+_Options considered:_
 
-*Decision and trade-offs:*
+_Decision and trade-offs:_
 
-*With more time I'd:*
+_With more time I'd:_
 
 ---
 
@@ -52,11 +53,11 @@ Describe **3 architectural decisions** you made. For each, explain:
 
 If you noticed any issues in the existing scaffold code (before building your own feature), describe them here:
 
-- **File and line**: 
+- **File and line**:
 - **Description**: What the bug was
 - **Fix applied**: What you did (or why you chose not to fix it)
 
-*(Leave this section blank if you found no issues.)*
+_(Leave this section blank if you found no issues.)_
 
 ---
 
@@ -65,10 +66,10 @@ If you noticed any issues in the existing scaffold code (before building your ow
 Disclose every AI tool you used. Be specific.
 
 | Tool | Task(s) | Representative prompt | What you kept | What you changed or rejected |
-|------|---------|----------------------|---------------|-------------------------------|
-| | | | | |
+| ---- | ------- | --------------------- | ------------- | ---------------------------- |
+|      |         |                       |               |                              |
 
-*Why this matters: we're evaluating your judgment in working with AI tools, not whether you used them.*
+_Why this matters: we're evaluating your judgment in working with AI tools, not whether you used them._
 
 ---
 
@@ -76,9 +77,9 @@ Disclose every AI tool you used. Be specific.
 
 List improvements you would make if you had additional time, in priority order:
 
-1. 
-2. 
-3. 
+1.
+2.
+3.
 
 ---
 
@@ -86,11 +87,11 @@ List improvements you would make if you had additional time, in priority order:
 
 The spec was intentionally underspecified in a few places. For each ambiguity you encountered:
 
-- **What was unclear**: 
-- **Decision I made**: 
-- **Reasoning**: 
+- **What was unclear**:
+- **Decision I made**:
+- **Reasoning**:
 
-*(If you didn't encounter any ambiguities, revisit the spec — they are there.)*
+_(If you didn't encounter any ambiguities, revisit the spec — they are there.)_
 
 ---
 
@@ -98,8 +99,8 @@ The spec was intentionally underspecified in a few places. For each ambiguity yo
 
 If you modified `tsconfig.json`, ESLint config, `next.config.ts`, `package.json` (adding/removing dependencies), or any other scaffold infrastructure file, document it here:
 
-- **File changed**: 
-- **What changed**: 
-- **Reason**: 
+- **File changed**:
+- **What changed**:
+- **Reason**:
 
-*(Leave blank if you made no changes to scaffold config files.)*
+_(Leave blank if you made no changes to scaffold config files.)_
